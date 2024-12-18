@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="icon"
+      href="https://static.chainbase.online/favicon_d5f98c6d24_6e5f68dd05.ico"
+    />
+    <title>Chainbase: The World’s Largest Omnichain Data Network</title>
+    <script src="/cdn/regenerator.min.js"></script>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' http: localhost:*; script-src 'unsafe-inline' 'unsafe-eval' http: localhost:*; connect-src http: localhost:* ws://localhost:*; style-src 'unsafe-inline' https; object-src 'none';"
+    />
+    <meta name="importmap-type" content="systemjs-importmap" />
+    <meta name="image" content="/public/cover.png" />
+    <meta property="og:image" content="/public/cover.png?version=1" />
+    <meta
+      name="og:title"
+      content="The world's largest omnichain data network for AI."
+    />
+    <meta name="twitter:image" content="/public/cover.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ChainbaseHQ" />
+    <meta
+      name="twitter:title"
+      content="The world's largest omnichain data network for AI."
+    />
+    <link
+      rel="preload"
+      href="/public/creato_display/CreatoDisplay-ExtraBold.otf"
+      as="font"
+      type="font/otf"
+    />
+    <link
+      rel="preload"
+      href="/public/creato_display/CreatoDisplay-Bold.otf"
+      as="font"
+      type="font/otf"
+    />
+    <link
+      rel="preload"
+      href="/public/creato_display/CreatoDisplay-Medium.otf"
+      as="font"
+      type="font/otf"
+    />
+    <link
+      rel="preload"
+      href="/public/creato_display/CreatoDisplay-Regular.otf"
+      as="font"
+      type="font/otf"
+    />
+    <link
+      rel="preload"
+      href="/public/creato_display/CreatoDisplay-Light.otf"
+      as="font"
+      type="font/otf"
+    />
+    <link
+      rel="preload"
+      href="/cdn/single-spa.min.js"
+      as="script"
+    />
+    <script type="systemjs-importmap" src="/import-map.json"></script>
+    <script type="systemjs-importmap" src="/import-map.cdn.json"></script>
+    <script src="/cdn/import-map-overrides.js"></script>
+    <script src="/cdn/system.min.js"></script>
+    <script src="/cdn/amd.min.js"></script>
+    <script>
+      const currentPath = window.location.pathname;
+
+      if (
+        ![
+          "/",
+          "/about",
+          "/community",
+          "/media-kit",
+          "/contact-us",
+          "/world-model",
+          "/ecosystem",
+          "/blockchains",
+        ].some((path) => window.location.pathname === path)
+      ) {
+        const location = window.location;
+        const currentPath = location.pathname + location.search + location.hash;
+        // const newUrl = `https://platform.chainbase.com/${currentPath}`;
+        // window.location.href = newUrl;
+      }
+    </script>
+  </head>
+  <body>
+    <script>
+      System.import("@chainbase-labs/root-config");
+    </script>
+    <import-map-overrides-full
+      show-when-local-storage="devtools"
+      dev-libs
+    ></import-map-overrides-full>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+    "imports": {
+        "single-spa": "/cdn/single-spa.min.js",
+        "single-spa-react": "/cdn/single-spa-react.min.js",
+        "react": "/cdn/react.production.min.js",
+        "react-dom": "/cdn/react-dom.production.min.js",
+        "@emotion/css": "/cdn/emotion-css.umd.min.js",
+        "classnames": "/cdn/classnames.min.js",
+        "react-i18next": "/cdn/react-i18next.min.js",
+        "@tanstack/react-query": "/cdn/react-query.production.js",
+        "framer-motion": "/cdn/framer-motion.dev.min.js",
+        "gsap": "/cdn/gsap.min.js",
+        "gsap/ScrollTrigger": "/cdn/ScrollTrigger.min.js",
+        "lenis": "/cdn/lenis.min.js"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "imports": {
+    "@chainbase-labs/micro-fe-shared": "/micro-fe-shared/9fc8823/chainbase-labs-micro-fe-shared.f0bbd776429223a41225.js",
+    "@chainbase-labs/micro-fe-shared-components": "/micro-fe-shared-components/bf09348/chainbase-labs-micro-fe-shared-components.d39bf64d17498bc124b9.js",
+    "@chainbase-labs/micro-fe-official-page-home": "/micro-fe-official-page-home/9f83de5/chainbase-labs-micro-fe-official-page-home.a2e61f258845633a34ca.js",
+    "@chainbase-labs/root-config": "/micro-fe-official-root-config/6fe1b6c/chainbase-labs-root-config.82d39cc3676c25b5f093.js",
+    "@chainbase-labs/micro-fe-official-page-about": "/micro-fe-official-page-about/10154bc/chainbase-labs-micro-fe-official-page-about.b69571601ad2f685fdf3.js",
+    "@chainbase-labs/micro-fe-official-footer": "/micro-fe-official-footer/2e52fc0/chainbase-labs-micro-fe-official-footer.2a4cc98baa3a63e5d697.js",
+    "@chainbase-labs/micro-fe-official-navbar": "/micro-fe-official-navbar/9ff62c2/chainbase-labs-micro-fe-official-navbar.63f9ff3f82358a329e8c.js",
+    "@chainbase-labs/micro-fe-official-page-community": "/micro-fe-official-page-community/c59cbc8/chainbase-labs-micro-fe-official-page-community.4c9c1bfa1a9a11f4dba8.js",
+    "@chainbase-labs/micro-fe-official-page-resources": "/micro-fe-official-page-resources/5c5c395/chainbase-labs-micro-fe-official-page-resources.0508c9618c9ea7494a9f.js",
+    "@chainbase-labs/micro-fe-official-page-ecosystem": "/micro-fe-official-page-ecosystem/2082d1a/chainbase-labs-micro-fe-official-page-ecosystem.9ea1ed4513b2da02efda.js",
+    "@chainbase-labs/micro-fe-official-page-contact": "/micro-fe-official-page-contact/478f07e/chainbase-labs-micro-fe-official-page-contact.7e326a932b8706af4d7f.js",
+    "@chainbase-labs/micro-fe-official-page-theia": "/micro-fe-official-page-theia/c2b9501/chainbase-labs-micro-fe-official-page-theia.1bbb9538efa5073e80c6.js",
+    "@chainbase-labs/micro-fe-official-page-blockchains": "/micro-fe-official-page-blockchains/d0b6671/chainbase-labs-micro-fe-official-page-blockchains.14ac7ab364eb560d31af.js",
+    "@chainbase-labs/micro-fe-official-page-operator": "/micro-fe-official-page-operator/cdcbbe5/chainbase-labs-micro-fe-official-page-operator.f3b015a2631ca639acff.js",
+    "@chainbase-labs/micro-fe-official-page-zone": "/micro-fe-official-page-zone/bc908c0/chainbase-labs-micro-fe-official-page-zone.a2105e53dcf32eae9911.js"
+  }
+}
